@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal to Bainary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter">
+            <form>
+                <label for="number">Enter Your Decimal Number : </label> <br><br>
+                <input id='input' class="input" type="number" placeholder="Enter Decimal">
+                <input type="text" disabled value="" id="show" class="input" placeholder="Bainary">
+                <input type="text" disabled value="" id="show2" class="input" placeholder="Octal">
+                <input type="text" disabled value="" id="show3" class="input" placeholder="HexaDecimal">
+                <div class="btn-group">
+                    <button id="convert" class="btn">Convert</button>
+                    <button id="reset" class="btn"> Reset </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="convert.js"></script>
+</body>
+</html>
